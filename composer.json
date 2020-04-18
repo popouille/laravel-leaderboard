@@ -1,5 +1,5 @@
 {
-    "name": "artisanry/leaderboard",
+    "name": "popouille/leaderboard",
     "description": "Points and Ranks for Eloquent models.",
     "keywords": [
         "laravel",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Artisanry\\Leaderboard\\": "src/"
+            "Popouille\\Leaderboard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Artisanry\\Tests\\Leaderboard\\": "tests"
+            "Popouille\\Tests\\Leaderboard\\": "tests"
         }
     },
     "config": {
@@ -43,7 +43,7 @@
         },
         "laravel": {
             "providers": [
-                "Artisanry\\Leaderboard\\LeaderboardServiceProvider"
+                "Popouille\\Leaderboard\\LeaderboardServiceProvider"
             ]
         }
     },
